@@ -1,4 +1,4 @@
-package br.fepi.socialbooks;
+package br.fepi.socialbooks.resources;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,6 +9,8 @@ import java.util.List;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import br.fepi.socialbooks.Livro;
 
 @RestController
 public class LivrosResources {
